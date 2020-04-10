@@ -4,7 +4,7 @@ OUTPUT_DIR = ../target/
 VALGRIND = valgrind
 VALGRINDFLAGS = --leak-check=full --show-leak-kinds=all --track-origins=yes
 
-objects = ll llt
+objects = strings
 all: $(objects)
 
 
