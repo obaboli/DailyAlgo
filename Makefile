@@ -9,6 +9,8 @@ all:
 	+$(MAKE) -C day8
 	+$(MAKE) -C day9
 	+$(MAKE) -C day10
+	+$(MAKE) -C day11
+	+$(MAKE) -C day12
 
 clean:
 	rm -rf target/*
